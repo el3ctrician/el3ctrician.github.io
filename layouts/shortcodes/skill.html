@@ -1,0 +1,11 @@
+{{- $percent := .Get "percent" }}
+{{- $name := .Get "name" }}
+
+
+<div class="progress-circle {{ if gt $percent "50" }} {{ print "over50" }} {{ end }} p{{ $percent }}">
+  <span>{{ $name }}</span>
+  <div class="left-half-clipper">
+     <div class="first50-bar"></div>
+     <div class="value-bar"></div>
+  </div>
+</div>
