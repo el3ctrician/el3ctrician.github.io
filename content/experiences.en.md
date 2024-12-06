@@ -5,8 +5,7 @@ title = 'Experiences'
 layout = 'simple'
 +++
 
-{{% columns %}}
-## Professional
+## Professional Experiences
 
 **Digital Design Engineer (Freelancer)**
 
@@ -58,30 +57,3 @@ layout = 'simple'
 - Built a C++ library to modularize and abstract project layers, enhancing code reuse and simplifying future development.
 - Architected and implemented a custom communication protocol using RESTful APIs, enabling seamless integration with Android and iOS applications for remote device control and data exchange.
 {{< /detail-tag >}}
-
-<--->
-
-## Education
-
-**Politecnico di Milano - Milan - Italy**
-
-*Master’s Degree (Unfinished) — 2018 - Now*
-{{< detail-tag "About that" >}}
-Was enrolled in a Master's degree of electronics engineering in Politecnico di Milano. Currently on hold due to personal events.
-{{< /detail-tag >}}
-
-**Universita della Calabria - Arcavacata - Italy**
-
-*Bachelor Degree — 2014 - 2017*
-{{< detail-tag "About that" >}}
-Holding a Bachelor Degree in Electronics Engineering with an experimental Thesis entitled “Reconfigurable Parallel Convolver Architecture for Deep Convolutional Neural Network”. Work related to the Thesis is released as open source and can be found [here](https://github.com/el3ctrician/Open-Convolver-Architecture-For-DCNN)
-{{< /detail-tag >}}
-
-**Istituto Salesiano Don Bosco – Cairo - Egypt**
-
-*Technician Diploma  — 2009 - 2013*
-{{< detail-tag "About that" >}}
-In Electrical systems and Automation with a focus on industrial applications and a Thesis on an Open Source implementation for a PLC with extended I/O functionalities.
-{{< /detail-tag >}}
-
-{{% /columns %}}

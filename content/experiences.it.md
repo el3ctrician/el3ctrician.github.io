@@ -5,8 +5,7 @@ title = 'Esperienze'
 layout = 'simple'
 +++
 
-{{% columns %}}
-## Professionale
+## Esperienze Professionale
 
 **Digital Design Engineer (Freelancer)**
 
@@ -59,30 +58,3 @@ layout = 'simple'
 - Creato una libreria in C++ per modularizzare e astrarre i livelli del progetto, migliorando il riutilizzo del codice e semplificando lo sviluppo futuro.
 - Progettato e implementato un protocollo di comunicazione personalizzato utilizzando API RESTful, consentendo un'integrazione fluida con applicazioni Android e iOS per il controllo remoto dei dispositivi e lo scambio di dati.
 {{< /detail-tag >}}
-
-<--->
-
-## Educazione
-
-**Politecnico di Milano - Milano - Italia**
-
-*Laurea Magistrale (sospesa) — 2018 - Now*
-{{< detail-tag "Approfondisci" >}}
-Ho dovuto sospendere gli studi per questioni personali. Nel futuro ho in mente di riprenderli
-{{< /detail-tag >}}
-
-**Universita della Calabria - Arcavacata - Italia**
-
-*Laurea Triennale — 2014 - 2017*
-{{< detail-tag "Approfondisci" >}}
-Laurea triennale  in ingegneria elettronica con una tesi sperimentale intitolata “Reconfigurable Parallel Convolver Architecture for Deep Convolutional Neural Network”. Il lavoro svolto è rilasciato in open source [qui](https://github.com/el3ctrician/Open-Convolver-Architecture-For-DCNN)
-{{< /detail-tag >}}
-
-**Istituto Salesiano Don Bosco – Cairo - Egitto**
-
-*Diploma di Perito Tecnico  — 2009 - 2013*
-{{< detail-tag "Approfondisci" >}}
-Diploma in elettrotecnica ed automazione con un  focus sulle applicazioni industriali. Tesina su un PLC open-source
-{{< /detail-tag >}}
-
-{{% /columns %}}

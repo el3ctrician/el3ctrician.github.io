@@ -1,1 +1,247 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/blog/role_of_fpga/</loc><lastmod>2024-11-21T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/blog/role_of_fpga/"/><xhtml:link rel="alternate" hreflang="en" href="/blog/role_of_fpga/"/></url><url><loc>/blog/</loc><lastmod>2024-10-31T18:46:02+01:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/blog/"/><xhtml:link rel="alternate" hreflang="en" href="/blog/"/></url><url><loc>/experiences/</loc><lastmod>2024-10-31T17:42:58+01:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/experiences/"/><xhtml:link rel="alternate" hreflang="en" href="/experiences/"/></url><url><loc>/</loc><lastmod>2024-10-31T17:42:58+01:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/"/><xhtml:link rel="alternate" hreflang="en" href="/"/></url><url><loc>/skills/</loc><lastmod>2024-10-31T17:42:58+01:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/skills/"/><xhtml:link rel="alternate" hreflang="en" href="/skills/"/></url><url><loc>/portfolio/photography_sensor/</loc><lastmod>2024-06-01T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/photography_sensor/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/photography_sensor/"/></url><url><loc>/portfolio/</loc><lastmod>2024-06-01T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/"/></url><url><loc>/portfolio/endoscopy_sensor/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/endoscopy_sensor/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/endoscopy_sensor/"/></url><url><loc>/portfolio/industrial_camera/</loc><lastmod>2021-02-23T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/industrial_camera/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/industrial_camera/"/></url><url><loc>/portfolio/industerial_temperature_board/</loc><lastmod>2021-02-21T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/industerial_temperature_board/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/industerial_temperature_board/"/></url><url><loc>/portfolio/multiphase_inverter/</loc><lastmod>2019-12-23T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/multiphase_inverter/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/multiphase_inverter/"/></url><url><loc>/portfolio/optical_link_power_adaptor/</loc><lastmod>2019-11-11T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/optical_link_power_adaptor/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/optical_link_power_adaptor/"/></url><url><loc>/portfolio/particle_accelerator/</loc><lastmod>2019-03-15T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="it" href="/it/portfolio/particle_accelerator/"/><xhtml:link rel="alternate" hreflang="en" href="/portfolio/particle_accelerator/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>//localhost:1313/blog/role_of_fpga/</loc>
+            <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/blog/role_of_fpga/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/blog/role_of_fpga/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/blog/</loc>
+            <lastmod>2024-10-31T18:46:02+01:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/blog/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/blog/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/education/</loc>
+            <lastmod>2024-10-31T17:42:58+01:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/education/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/education/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/experiences/</loc>
+            <lastmod>2024-10-31T17:42:58+01:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/experiences/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/experiences/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/</loc>
+            <lastmod>2024-10-31T17:42:58+01:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/skills/</loc>
+            <lastmod>2024-10-31T17:42:58+01:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/skills/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/skills/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/photography_sensor/</loc>
+            <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/photography_sensor/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/photography_sensor/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/</loc>
+            <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/endoscopy_sensor/</loc>
+            <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/endoscopy_sensor/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/endoscopy_sensor/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/industrial_camera/</loc>
+            <lastmod>2021-02-23T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/industrial_camera/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/industrial_camera/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/industerial_temperature_board/</loc>
+            <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/industerial_temperature_board/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/industerial_temperature_board/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/multiphase_inverter/</loc>
+            <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/multiphase_inverter/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/multiphase_inverter/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/optical_link_power_adaptor/</loc>
+            <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/optical_link_power_adaptor/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/optical_link_power_adaptor/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/particle_accelerator/</loc>
+            <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="it"
+              href="//localhost:1313/it/portfolio/particle_accelerator/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/portfolio/particle_accelerator/"
+              />
+          </url>
+    
+  
+    
+  
+    
+  
+</urlset>

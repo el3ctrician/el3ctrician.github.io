@@ -8,7 +8,8 @@ showSummary = true
 summary = "My point of view about the usage of FPGA in the modern embedded system"
 date = 2024-11-21
 showAuthor = true
-showPagination =  true
+showPagination = true
+showComments= true
 +++
 
 # The Role of FPGAs in Modern Embedded Systems

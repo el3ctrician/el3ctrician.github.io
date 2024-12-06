@@ -16,24 +16,29 @@
   weight = 9
 
 [[main]]
+  name = 'Educazione'
+  pageRef = '/education'
+  weight = 10
+
+[[main]]
   name = 'Esperienze'
   pageRef = '/experiences'
-  weight = 10
+  weight = 11
 
 [[main]]
   name = 'Competenze'
   pageRef = '/skills'
-  weight = 11
+  weight = 12
 
 [[main]]
   name = 'Progetti'
   pageRef = '/portfolio'
-  weight = 12
+  weight = 13
 
 [[main]]
   name = 'Blog'
   pageRef = '/blog'
-  weight = 13
+  weight = 14
 
 
 [[main]]
@@ -64,21 +69,26 @@
   weight = 9
 
 [[footer]]
+  name = 'Edu'
+  pageRef ='/education'
+  weight = 10
+
+[[footer]]
   name = 'Esperienze'
   pageRef = '/experiences'
-  weight = 10
+  weight = 11
 
 [[footer]]
   name = 'Competenze'
   pageRef = '/skills'
-  weight = 11
+  weight = 12
 
 [[footer]]
   name = 'Progetti'
   pageRef = '/portfolio'
-  weight = 12
+  weight = 13
 
 [[footer]]
   name = 'Blog'
   pageRef = '/posts'
-  weight = 13
+  weight = 14

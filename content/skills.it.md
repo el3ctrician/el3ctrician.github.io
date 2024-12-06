@@ -9,71 +9,116 @@ showDate = false
 title = 'Competenze'
 +++
 
-## Digital IC
-### RTL
-{{% columns %}}
-{{< skill name="VHDL" percent="95" >}}
-<--->
-{{< skill name="Verilog" percent="90" >}}
-<--->
-{{< skill name="SV" percent="85" >}}
-<--->
-{{% /columns %}}
+## Competenze Principali
 
-### Verifica
-{{% columns %}}
-{{< skill name="UVM" percent="40" >}}
-<--->
-{{< skill name="TCL" percent="40" >}}
-<--->
-{{< skill name="Python" percent="80" >}}
-<--->
-{{< skill name="Bash" percent="70" >}}
-{{% /columns %}}
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['VHDL', 'Verilog', 'SystemVerilog','UVM', 'TCL','Cadence', 'Vivado', 'Quartus'],
+  datasets: [{
+    label: 'Knowledge',
+    data: [95, 90, 85,40,40,60,90,75],
+    backgroundColor: [
+      'rgba(153, 102, 255, 0.95)',
+      'rgba(75, 192, 192, 0.95)',
+      'rgba(54, 162, 235, 0.95)',
+      'rgba(255, 99, 132, 0.95)',
+      'rgba(255, 159, 64, 0.95)',
+      'rgba(255, 205, 86, 0.95)',
+      'rgba(201, 203, 207, 0.95)',
+      'rgba(201, 130, 100, 0.95)',
 
-### Backend
-{{% columns %}}
-{{< skill name="Cadence" percent="60" >}}
-<--->
-{{< skill name="Vivado" percent="90" >}}
-<--->
-{{< skill name="Quartus" percent="75" >}}
-<--->
-{{% /columns %}}
+    ],
+  }]
+},
+{{< /chart >}}
 
 ## Competenze di Supporto
 
-### Hardware
-{{% columns %}}
-{{< skill name="Altium" percent="40" >}}
-<--->
-{{< skill name="Orcad" percent="70" >}}
-<--->
-{{< skill name="EagleCad" percent="70" >}}
-<--->
-{{% /columns %}}
+### Elettronica
 
-### Firmware
-{{% columns %}}
-{{< skill name="C/C++" percent="70" >}}
-<--->
-{{< skill name="Arduino" percent="60" >}}
-<--->
-{{< skill name="PIC" percent="40" >}}
-<--->
-{{< skill name="ST32" percent="60" >}}
-<--->
-{{% /columns %}}
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['Altium', 'Orcad', 'EagleCad','C/C++', 'PIC', 'ST32','ATmega'],
+  datasets: [{
+    label: 'Knowledge',
+    data: [40,70,70,90,30,30,30],
+    backgroundColor: [
+      'rgba(255, 159, 64, 0.95)',
+      'rgba(255, 205, 86, 0.95)',
+      'rgba(153, 102, 255, 0.95)',
+      'rgba(201, 203, 207, 0.95)',
+      'rgba(75, 192, 192, 0.95)',
+      'rgba(255, 99, 132, 0.95)',
+      'rgba(54, 162, 235, 0.95)',
+    ],
+  }]
+}
+{{< /chart >}}
 
-### Sviluppo Web
-{{% columns %}}
-{{< skill name="PHP" percent="40" >}}
-<--->
-{{< skill name="JS" percent="60" >}}
-<--->
-{{< skill name="Hugo" percent="40" >}}
-<--->
-{{< skill name="MariaDB" percent="40" >}}
-<--->
-{{< skill name="Linux" percent="80" >}}
-{{% /columns %}}
+
+### Programmazione
+
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['Linux','Python', 'Bash', 'JS', 'MariaDB','Hugo','PHP'],
+  datasets: [{
+    label: 'Knowledge',
+    data: [90,80,60,40,20,30,60],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.95)',
+      'rgba(255, 205, 86, 0.95)',
+      'rgba(255, 159, 64, 0.95)',
+      'rgba(153, 102, 255, 0.95)',
+      'rgba(201, 203, 207, 0.95)',
+      'rgba(75, 192, 192, 0.95)',
+      'rgba(54, 162, 235, 0.95)',
+    ],
+  }]
+}
+{{< /chart >}}
+
+## Soft Skills
+
+### Personali
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['Lavoro di squadra','Project Management', 'Negozione'],
+  datasets: [{
+    label: 'Knowledge',
+    data: [95,70, 80],
+    backgroundColor: [
+      'rgba(255, 205, 86, 0.95)', //yellow
+      'rgba(75, 192, 192, 0.95)', //green
+      'rgba(54, 162, 235, 0.95)', //blue
+      'rgba(255, 159, 64, 0.95)', //orange
+      'rgba(255, 99, 132, 0.95)', //red
+      'rgba(153, 102, 255, 0.95)', //purple
+      'rgba(201, 203, 207, 0.95)', //white
+    ],
+  }]
+}
+{{< /chart >}}
+
+### Languages
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['Arabo','Inglese', 'Italiano','Spagnolo'],
+  datasets: [{
+    data: [100,90, 95,30],
+    backgroundColor: [
+      'rgba(75, 192, 192, 0.95)', //green
+      'rgba(153, 102, 255, 0.95)', //purple
+      'rgba(255, 99, 132, 0.95)', //red
+      'rgba(255, 159, 64, 0.95)', //orange
+      'rgba(255, 205, 86, 0.95)', //yellow
+      'rgba(201, 203, 207, 0.95)', //white
+      'rgba(54, 162, 235, 0.95)', //blue
+    ],
+  }]
+}
+{{< /chart >}}
