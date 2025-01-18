@@ -13,25 +13,47 @@ title = 'Skills'
 ## Core Skills
 
 {{< chart >}}
-type: 'doughnut',
+type: 'radar',
+borderColor: 'rgb(255, 255, 132)',
 data: {
-  labels: ['VHDL', 'Verilog', 'SystemVerilog','UVM', 'TCL','Cadence', 'Vivado', 'Quartus'],
+  labels: ['VHDL', 'Verilog', 'SystemVerilog','Cadence', 'Vivado', 'Quartus', 'UVM', 'TCL', 'VUnit'],
   datasets: [{
-    label: 'Knowledge',
-    data: [95, 90, 85,40,40,60,90,75],
-    backgroundColor: [
-      'rgba(153, 102, 255, 0.95)',
-      'rgba(75, 192, 192, 0.95)',
-      'rgba(54, 162, 235, 0.95)',
-      'rgba(255, 99, 132, 0.95)',
-      'rgba(255, 159, 64, 0.95)',
-      'rgba(255, 205, 86, 0.95)',
-      'rgba(201, 203, 207, 0.95)',
-      'rgba(201, 130, 100, 0.95)',
+    label: "Expertise",
+    data: [90, 85, 80, 65 , 85 ,75, 50 , 55 , 35],
+    fill: true,
+    backgroundColor: 'rgba(114, 140, 192, 0.5)',
+    borderColor: 'rgb(114, 140, 192)',
+    pointBackgroundColor: 'rgb(114, 140, 192)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(120, 146, 198)'
 
-    ],
   }]
-},
+}, options: {
+  plugins :{legend : {display : false,}},
+  scales: {
+    r: {
+      pointLabels:{
+        color: 'rgb(130, 130, 130)',
+        font: {
+          size: 15
+        },
+      },
+      grid: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      angleLines: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      max: 100,
+      min: 0,
+      ticks: {
+        display: false,
+        stepSize: 20,
+      },
+    }
+  }
+}
 {{< /chart >}}
 
 ## Support Skills
@@ -39,90 +61,115 @@ data: {
 ### Electronics
 
 {{< chart >}}
-type: 'doughnut',
+type: 'radar',
+borderColor: 'rgb(255, 255, 132)',
 data: {
   labels: ['Altium', 'Orcad', 'EagleCad','C/C++', 'PIC', 'ST32','ATmega'],
   datasets: [{
-    label: 'Knowledge',
-    data: [40,70,70,90,30,30,30],
-    backgroundColor: [
-      'rgba(255, 159, 64, 0.95)',
-      'rgba(255, 205, 86, 0.95)',
-      'rgba(153, 102, 255, 0.95)',
-      'rgba(201, 203, 207, 0.95)',
-      'rgba(75, 192, 192, 0.95)',
-      'rgba(255, 99, 132, 0.95)',
-      'rgba(54, 162, 235, 0.95)',
-    ],
+    label: "Expertise",
+    data: [30, 70 ,70 ,90 , 30, 45, 35],
+    fill: true,
+    backgroundColor: 'rgba(114, 140, 192, 0.5)',
+    borderColor: 'rgb(114, 140, 192)',
+    pointBackgroundColor: 'rgb(114, 140, 192)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(120, 146, 198)'
+
   }]
+}, options: {
+  plugins :{legend : {display : false,}},
+  scales: {
+    r: {
+      pointLabels:{
+        color: 'rgb(130, 130, 130)',
+        font: {
+          size: 15
+        },
+      },
+      grid: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      angleLines: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      max: 100,
+      min: 0,
+      ticks: {
+        display: false,
+        stepSize: 20,
+      },
+    }
+  }
 }
+
 {{< /chart >}}
 
 
 ### Programming
 
 {{< chart >}}
-type: 'doughnut',
+type: 'radar',
+borderColor: 'rgb(255, 255, 132)',
 data: {
-  labels: ['Linux','Python', 'Bash', 'JS', 'MariaDB','Hugo','PHP'],
+  labels: ['Linux','Python', 'Bash', 'JS', 'MariaDB','PHP', 'Docker'],
   datasets: [{
-    label: 'Knowledge',
-    data: [90,80,60,40,20,30,60],
-    backgroundColor: [
-      'rgba(255, 99, 132, 0.95)',
-      'rgba(255, 205, 86, 0.95)',
-      'rgba(255, 159, 64, 0.95)',
-      'rgba(153, 102, 255, 0.95)',
-      'rgba(201, 203, 207, 0.95)',
-      'rgba(75, 192, 192, 0.95)',
-      'rgba(54, 162, 235, 0.95)',
-    ],
+    label: "Expertise",
+    data: [90 ,80 ,70 ,45, 20, 70, 50],
+    fill: true,
+    backgroundColor: 'rgba(114, 140, 192, 0.5)',
+    borderColor: 'rgb(114, 140, 192)',
+    pointBackgroundColor: 'rgb(114, 140, 192)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(120, 146, 198)'
+
   }]
+}, options: {
+  plugins :{legend : {display : false,}},
+  scales: {
+    r: {
+      pointLabels:{
+        color: 'rgb(130, 130, 130)',
+        font: {
+          size: 15
+        },
+      },
+      grid: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      angleLines: {
+        color: 'rgb(130, 130, 130 ,0.5)',
+      },
+      max: 100,
+      min: 0,
+      ticks: {
+        display: false,
+        stepSize: 20,
+      },
+    }
+  }
 }
+
 {{< /chart >}}
 
 ## Soft Skills
 
 ### Personal
-{{< chart >}}
-type: 'doughnut',
-data: {
-  labels: ['Team Work','Project Management', 'Negotiation'],
-  datasets: [{
-    label: 'Knowledge',
-    data: [95,70, 80],
-    backgroundColor: [
-      'rgba(255, 205, 86, 0.95)', //yellow
-      'rgba(75, 192, 192, 0.95)', //green
-      'rgba(54, 162, 235, 0.95)', //blue
-      'rgba(255, 159, 64, 0.95)', //orange
-      'rgba(255, 99, 132, 0.95)', //red
-      'rgba(153, 102, 255, 0.95)', //purple
-      'rgba(201, 203, 207, 0.95)', //white
-    ],
-  }]
-}
-{{< /chart >}}
+ - Problem Solving
+ - Team Work
+ - Project Management
+ - Negotiation
+ - Creativity
 
 ### Languages
-{{< chart >}}
-type: 'bar',
-data: {
-  labels: ['Arabic','English', 'Italian','Spanish'],
-  datasets: [{
-    data: [100,90, 95,30],
-    backgroundColor: [
-      'rgba(75, 192, 192, 0.95)', //green
-      'rgba(153, 102, 255, 0.95)', //purple
-      'rgba(255, 99, 132, 0.95)', //red
-      'rgba(255, 159, 64, 0.95)', //orange
-      'rgba(255, 205, 86, 0.95)', //yellow
-      'rgba(201, 203, 207, 0.95)', //white
-      'rgba(54, 162, 235, 0.95)', //blue
-    ],
-  }]
-}
-{{< /chart >}}
+
+| Language    | Level       |
+| ----------- | ----------- |
+| Arabic      | C2 (Native) |
+| Italian     | C2          |
+| English     | C1          |
+| Spanish     | A2          |
 
 
 
