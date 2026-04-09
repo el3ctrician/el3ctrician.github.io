@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = 'Making FPGAs and ASICs Work in the Real World'
 showReadingTime = true
 showDate = true
