@@ -22,7 +22,7 @@ I’ve been fortunate to work on systems now in production — from ASICs in bio
 
 After 10 years working across FPGA and ASIC platforms, I’ve come to believe that most digital design projects don’t fail from bad code. They fail from bad assumptions, skipped verification, and workflows that fight the tools instead of leveraging them.
 
-These aren’t textbook rules. They’re patterns I’ve seen work (or fail) across multiple tape-outs and lab bring-ups. In this post, I want to highlight some hard-earned lessons and the kinds of technical interventions that have made a measurable difference in real systems.
+These aren’t textbook rules. They’re patterns I’ve seen work (or fail) across tape-outs and lab bring-ups. In this post, I want to highlight some hard-earned lessons and the kinds of technical interventions that have made a measurable difference in real systems.
 
 ---
 
@@ -56,7 +56,7 @@ High-speed interfaces are where theory and reality often diverge. Over the years
 
 - A **SLVS-EC Transmitter**, fully parameterized and portable
 - A **Dynamic Phase Alignment system** to capture high-resolution Sony image sensor data using standard I/Os — avoiding costly transceivers
-- An **interface and control logic layer for a particle accelerator (CNAO)**, integrating deeply with legacy systems and complex timing constraints
+- An **interface and control logic layer for a particle accelerator**, integrating deeply with legacy systems and complex timing constraints
 
 Each of these required a deep understanding of signal integrity, latency tolerance, clock domain crossing, and — often more importantly — how to squeeze performance from devices that weren't originally designed for such use cases. Designing such interfaces requires a lot of practical solutions and a process of choosing between bad and worse to balance your trade-off. While it is always tempting to write a clean and understandable HDL sometimes you have to accept the fact that you need some tricks to work around protocols quirks and target limitation.
 
@@ -66,7 +66,7 @@ When it comes to interfaces, I would say that Dynamic phase alignment shines on 
 
 ## Transitioning from FPGA to ASIC: Do It Early, or Regret It Later
 
-If you plan on testing on FPGA to later transition to ASIC, never build systems around vendor IPs that can’t be retargeted. Harden your timing constraints and most importantly remember that on FPGAs, logic is mapped to LUTs, so complexity doesn’t always correlate linearly with area. On ASICs, however, gate count, wire length, and memory hierarchy directly impact area and timing, making early architectural planning critical.
+If you plan on testing an algorithm on FPGA to later transition to ASIC, never build systems around vendor IPs that can’t be retargeted. Harden your timing constraints and most importantly remember that on FPGAs, logic is mapped to LUTs, so complexity doesn’t always correlate linearly with area. On ASICs, however, gate count, wire length, and memory hierarchy directly impact area and timing, making early architectural planning critical.
 
 Also FPGAs lean heavily on distributed memories and shift registers, which synthesize almost transparently. In ASIC, however, every inferred memory must be explicitly planned for area, timing, and physical placement. Treat memory architecture as a first-class design constraint from day one.
 
@@ -88,7 +88,7 @@ If you’re still generating your regmap by hand or if you are using ancient met
 
 ## Conclusion: It's Not Just What You Build, But How You Think
 
-Whether I’m reviewing architecture, optimizing RTL, or pushing designs through place-and-route, I care deeply about one thing: **robust systems built with clarity and intent**.
+Whether I’m reviewing architecture, optimizing RTL, or designing a new chip from scratch, I care deeply about one thing: **robust systems built with clarity and intent**.
 
 I believe in:
 - Writing code that’s portable by default
